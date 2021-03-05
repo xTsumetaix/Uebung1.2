@@ -28,6 +28,11 @@ h1 {
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.8s;
+}
+
+.card:hover {
+  background-color: #eee;
 }
 
 .image-container {
